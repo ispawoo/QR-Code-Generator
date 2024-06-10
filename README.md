@@ -1,9 +1,9 @@
 # QR-Code-Generator
 
-#Purpose: 
+# Purpose: 
 Create a QR Code as a PNG image when a user uploads a file of a specific format to the bot.
 
-#Features:
+# Features:
 
 1. Responds to the /start command with a welcome message.
 2. Supports file formats: jpg, png, mp4, mp3, 3gp, wav, zip, rar, txt, doc, docx, docs, ppt, word, pdf, html, xml.
@@ -13,7 +13,7 @@ Create a QR Code as a PNG image when a user uploads a file of a specific format 
 6. Sends the QR Code image back to the user as a photo.
 
 
-#How it works:
+# How it works:
 
 1. User sends a file to the bot.
 2. Bot checks the file format and generates a QR Code if it's supported.
@@ -22,13 +22,13 @@ Create a QR Code as a PNG image when a user uploads a file of a specific format 
 5. Bot sends the QR Code image back to the user.
 
 
-#Requirements:
+# Requirements:
 
 1. Python 3.x
 2. qrcode library (install with pip install qrcode)
 3. Telegram Bot token (replace YOUR_TELEGRAM_BOT_TOKEN with your actual token)
 
-#Summary:
+# Summary:
 
 1. The bot responds to the /start command by sending a welcome message.
 2. When a user uploads a file, the generate_qr_code function is triggered.
